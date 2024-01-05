@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-openai_api_key = openai_api_key
+openai_api_key = st.secrets["openai_api_key"]
 
 def page_1():
   st.title("ZenDoc")
